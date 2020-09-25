@@ -30,6 +30,7 @@ function App() {
   );
 
   return (
+    <div>
     <div className="coinApp">
       <div className="coinSearch">
         <h1 className="coinText">Find what you're looking for?</h1>
@@ -56,6 +57,7 @@ function App() {
           />
         );
       })}
+    </div>
     </div>
   );
 }
